@@ -80,4 +80,12 @@ public class ZittiController {
     }
 
 
+    @GetMapping("/printcommand456")
+    pubilc ResponseEntity<String> printCommand(){
+        String response = "What is your native";
+        reuturn new responseEntity.ok(response);
+    }
+
+
+
 }
