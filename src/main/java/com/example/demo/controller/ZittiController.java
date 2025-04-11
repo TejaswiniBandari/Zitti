@@ -54,4 +54,10 @@ public class ZittiController {
         return ResponseEntity.ok(response);
     }
 
+    @GetMapping("/printcommand")
+    pubilc ResponseEntity<String> printCommand(){
+        String response = "Hello I'm Tejaswini, good to know u";
+        reuturn new responseEntity.ok(response);
+    }
+
 }
