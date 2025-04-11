@@ -72,4 +72,12 @@ public class ZittiController {
         reuturn new responseEntity.ok(response);
     }
 
+	
+    @GetMapping("/printcommand456")
+    pubilc ResponseEntity<String> printCommand(){
+        String response = "I'm cooking";
+        reuturn new responseEntity.ok(response);
+    }
+
+
 }
